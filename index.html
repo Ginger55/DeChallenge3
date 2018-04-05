@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Challenge 3</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13F"></script>
+    	<link type="text/css" href="styles/style.css" rel="stylesheet">	
+
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script type="text/javascript"> function showhide(id) {
+       	var e = document.getElementById(id);
+       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+     }</script>
+
+
+    	<a id="klikhier" href="javascript:showhide('weer')">
+    		Klik hier om het weer in Hoek van Holland te zien
+    	</a>
+    
+		<article id="weer"></article>
+
+
+  
+      
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANuHccfkLm5AZ6A-rsP1jFfH2_VBmfKkI&callback=initMap">
+
+
+    </script>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+
+  </body>
+</html>
+
+      
